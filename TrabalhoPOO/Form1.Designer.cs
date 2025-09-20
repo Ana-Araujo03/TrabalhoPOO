@@ -28,10 +28,10 @@
         /// </summary>
         private void InitializeComponent()
         {
-            DataGridViewCellStyle dataGridViewCellStyle5 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle6 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle7 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle8 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle1 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle2 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle3 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle4 = new DataGridViewCellStyle();
             dgvProdutos = new DataGridView();
             Id = new DataGridViewTextBoxColumn();
             Nome = new DataGridViewTextBoxColumn();
@@ -71,43 +71,43 @@
             // 
             // dgvProdutos
             // 
-            dataGridViewCellStyle5.ForeColor = Color.Black;
-            dataGridViewCellStyle5.SelectionBackColor = Color.Silver;
-            dgvProdutos.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle5;
+            dataGridViewCellStyle1.ForeColor = Color.Black;
+            dataGridViewCellStyle1.SelectionBackColor = Color.Silver;
+            dgvProdutos.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
             dgvProdutos.BackgroundColor = SystemColors.ActiveCaption;
-            dataGridViewCellStyle6.Alignment = DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle6.BackColor = Color.Red;
-            dataGridViewCellStyle6.Font = new Font("Segoe UI", 9F);
-            dataGridViewCellStyle6.ForeColor = Color.Black;
-            dataGridViewCellStyle6.SelectionBackColor = SystemColors.Highlight;
-            dataGridViewCellStyle6.SelectionForeColor = SystemColors.Desktop;
-            dataGridViewCellStyle6.WrapMode = DataGridViewTriState.True;
-            dgvProdutos.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle6;
+            dataGridViewCellStyle2.Alignment = DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle2.BackColor = Color.Red;
+            dataGridViewCellStyle2.Font = new Font("Segoe UI", 9F);
+            dataGridViewCellStyle2.ForeColor = Color.Black;
+            dataGridViewCellStyle2.SelectionBackColor = SystemColors.Highlight;
+            dataGridViewCellStyle2.SelectionForeColor = SystemColors.Desktop;
+            dataGridViewCellStyle2.WrapMode = DataGridViewTriState.True;
+            dgvProdutos.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
             dgvProdutos.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridViewCellStyle7.Alignment = DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle7.BackColor = SystemColors.Window;
-            dataGridViewCellStyle7.Font = new Font("Segoe UI", 9F);
-            dataGridViewCellStyle7.ForeColor = SystemColors.ButtonHighlight;
-            dataGridViewCellStyle7.SelectionBackColor = SystemColors.Highlight;
-            dataGridViewCellStyle7.SelectionForeColor = SystemColors.ActiveCaptionText;
-            dataGridViewCellStyle7.WrapMode = DataGridViewTriState.False;
-            dgvProdutos.DefaultCellStyle = dataGridViewCellStyle7;
+            dataGridViewCellStyle3.Alignment = DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle3.BackColor = SystemColors.Window;
+            dataGridViewCellStyle3.Font = new Font("Segoe UI", 9F);
+            dataGridViewCellStyle3.ForeColor = SystemColors.ButtonHighlight;
+            dataGridViewCellStyle3.SelectionBackColor = SystemColors.Highlight;
+            dataGridViewCellStyle3.SelectionForeColor = SystemColors.ActiveCaptionText;
+            dataGridViewCellStyle3.WrapMode = DataGridViewTriState.False;
+            dgvProdutos.DefaultCellStyle = dataGridViewCellStyle3;
             dgvProdutos.Location = new Point(437, 24);
             dgvProdutos.Name = "dgvProdutos";
-            dataGridViewCellStyle8.Alignment = DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle8.BackColor = Color.Red;
-            dataGridViewCellStyle8.Font = new Font("Segoe UI", 9F);
-            dataGridViewCellStyle8.ForeColor = SystemColors.WindowText;
-            dataGridViewCellStyle8.SelectionBackColor = SystemColors.Highlight;
-            dataGridViewCellStyle8.SelectionForeColor = Color.Black;
-            dataGridViewCellStyle8.WrapMode = DataGridViewTriState.True;
-            dgvProdutos.RowHeadersDefaultCellStyle = dataGridViewCellStyle8;
+            dataGridViewCellStyle4.Alignment = DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle4.BackColor = Color.Red;
+            dataGridViewCellStyle4.Font = new Font("Segoe UI", 9F);
+            dataGridViewCellStyle4.ForeColor = SystemColors.WindowText;
+            dataGridViewCellStyle4.SelectionBackColor = SystemColors.Highlight;
+            dataGridViewCellStyle4.SelectionForeColor = Color.Black;
+            dataGridViewCellStyle4.WrapMode = DataGridViewTriState.True;
+            dgvProdutos.RowHeadersDefaultCellStyle = dataGridViewCellStyle4;
             dgvProdutos.RowTemplate.DefaultCellStyle.BackColor = Color.White;
             dgvProdutos.RowTemplate.DefaultCellStyle.ForeColor = Color.Black;
             dgvProdutos.RowTemplate.DefaultCellStyle.SelectionBackColor = Color.Blue;
             dgvProdutos.RowTemplate.DefaultCellStyle.SelectionForeColor = Color.AliceBlue;
             dgvProdutos.Size = new Size(425, 414);
-            dgvProdutos.TabIndex = 0;
+            dgvProdutos.TabIndex = 16;
             // 
             // Id
             // 
@@ -140,7 +140,7 @@
             txbNome.Location = new Point(3, 36);
             txbNome.Name = "txbNome";
             txbNome.Size = new Size(100, 23);
-            txbNome.TabIndex = 1;
+            txbNome.TabIndex = 2;
             txbNome.KeyPress += txbNome_KeyPress;
             // 
             // btnCadastrar
@@ -149,7 +149,7 @@
             btnCadastrar.Location = new Point(12, 24);
             btnCadastrar.Name = "btnCadastrar";
             btnCadastrar.Size = new Size(131, 49);
-            btnCadastrar.TabIndex = 4;
+            btnCadastrar.TabIndex = 1;
             btnCadastrar.Text = "Cadastro de Produto";
             btnCadastrar.UseVisualStyleBackColor = true;
             btnCadastrar.Click += btnCadastrar_Click;
@@ -160,7 +160,7 @@
             btnIncrementar.Location = new Point(12, 244);
             btnIncrementar.Name = "btnIncrementar";
             btnIncrementar.Size = new Size(131, 49);
-            btnIncrementar.TabIndex = 5;
+            btnIncrementar.TabIndex = 6;
             btnIncrementar.Text = "Incremento de quantidade";
             btnIncrementar.UseVisualStyleBackColor = true;
             btnIncrementar.Click += btnIncrementar_Click;
@@ -171,7 +171,7 @@
             btnDecrementar.Location = new Point(12, 352);
             btnDecrementar.Name = "btnDecrementar";
             btnDecrementar.Size = new Size(131, 49);
-            btnDecrementar.TabIndex = 6;
+            btnDecrementar.TabIndex = 11;
             btnDecrementar.Text = "Decremento de quantidade";
             btnDecrementar.UseVisualStyleBackColor = true;
             btnDecrementar.Click += btnDecrementar_Click;
@@ -208,7 +208,7 @@
             txbQuantidade.Location = new Point(3, 186);
             txbQuantidade.Name = "txbQuantidade";
             txbQuantidade.Size = new Size(100, 23);
-            txbQuantidade.TabIndex = 11;
+            txbQuantidade.TabIndex = 4;
             txbQuantidade.KeyPress += txbQuantidade_KeyPress;
             // 
             // panel_Cadastro
@@ -231,7 +231,7 @@
             mtxbPreco.Mask = "00.00";
             mtxbPreco.Name = "mtxbPreco";
             mtxbPreco.Size = new Size(100, 23);
-            mtxbPreco.TabIndex = 13;
+            mtxbPreco.TabIndex = 3;
             mtxbPreco.ValidatingType = typeof(int);
             mtxbPreco.KeyPress += mtxbPreco_KeyPress;
             // 
@@ -241,7 +241,7 @@
             btnSalvar_Produto.Location = new Point(171, 185);
             btnSalvar_Produto.Name = "btnSalvar_Produto";
             btnSalvar_Produto.Size = new Size(75, 23);
-            btnSalvar_Produto.TabIndex = 12;
+            btnSalvar_Produto.TabIndex = 5;
             btnSalvar_Produto.Text = "Salvar";
             btnSalvar_Produto.UseVisualStyleBackColor = true;
             btnSalvar_Produto.Click += btnSalvar_Produto_Click;
@@ -270,7 +270,7 @@
             btnQuantidade_Incremento.Location = new Point(180, 70);
             btnQuantidade_Incremento.Name = "btnQuantidade_Incremento";
             btnQuantidade_Incremento.Size = new Size(75, 23);
-            btnQuantidade_Incremento.TabIndex = 15;
+            btnQuantidade_Incremento.TabIndex = 10;
             btnQuantidade_Incremento.Text = "Adicionar";
             btnQuantidade_Incremento.UseVisualStyleBackColor = true;
             btnQuantidade_Incremento.Click += btnQuantidade_Incremento_Click;
@@ -281,7 +281,7 @@
             btnQuantidade_Decremento.Location = new Point(180, 74);
             btnQuantidade_Decremento.Name = "btnQuantidade_Decremento";
             btnQuantidade_Decremento.Size = new Size(75, 23);
-            btnQuantidade_Decremento.TabIndex = 16;
+            btnQuantidade_Decremento.TabIndex = 15;
             btnQuantidade_Decremento.Text = "Diminuir";
             btnQuantidade_Decremento.UseVisualStyleBackColor = true;
             btnQuantidade_Decremento.Click += btnQuantidade_Decremento_Click;
@@ -291,7 +291,7 @@
             txbNome_Produto_Incremento.Location = new Point(3, 21);
             txbNome_Produto_Incremento.Name = "txbNome_Produto_Incremento";
             txbNome_Produto_Incremento.Size = new Size(100, 23);
-            txbNome_Produto_Incremento.TabIndex = 17;
+            txbNome_Produto_Incremento.TabIndex = 7;
             txbNome_Produto_Incremento.TextChanged += txbNome_Produto_Incremento_TextChanged;
             // 
             // txbNome_Produto_Decremento
@@ -299,7 +299,7 @@
             txbNome_Produto_Decremento.Location = new Point(3, 21);
             txbNome_Produto_Decremento.Name = "txbNome_Produto_Decremento";
             txbNome_Produto_Decremento.Size = new Size(100, 23);
-            txbNome_Produto_Decremento.TabIndex = 18;
+            txbNome_Produto_Decremento.TabIndex = 12;
             txbNome_Produto_Decremento.TextChanged += txbNome_Produto_Decremento_TextChanged;
             // 
             // lblQuantidade_Incremento
@@ -325,14 +325,14 @@
             txbQuantidade_Decremento.Location = new Point(3, 74);
             txbQuantidade_Decremento.Name = "txbQuantidade_Decremento";
             txbQuantidade_Decremento.Size = new Size(100, 23);
-            txbQuantidade_Decremento.TabIndex = 21;
+            txbQuantidade_Decremento.TabIndex = 14;
             // 
             // txbQuantidade_Incremento
             // 
             txbQuantidade_Incremento.Location = new Point(3, 71);
             txbQuantidade_Incremento.Name = "txbQuantidade_Incremento";
             txbQuantidade_Incremento.Size = new Size(100, 23);
-            txbQuantidade_Incremento.TabIndex = 22;
+            txbQuantidade_Incremento.TabIndex = 9;
             // 
             // panel_Incremento
             // 
@@ -353,7 +353,7 @@
             btnBuscar_Nome_Incremento.Location = new Point(109, 20);
             btnBuscar_Nome_Incremento.Name = "btnBuscar_Nome_Incremento";
             btnBuscar_Nome_Incremento.Size = new Size(75, 23);
-            btnBuscar_Nome_Incremento.TabIndex = 23;
+            btnBuscar_Nome_Incremento.TabIndex = 8;
             btnBuscar_Nome_Incremento.Text = "Buscar";
             btnBuscar_Nome_Incremento.UseVisualStyleBackColor = true;
             btnBuscar_Nome_Incremento.Click += btnBuscar_Nome_Incremento_Click;
@@ -377,7 +377,7 @@
             btnBuscar_Nome_Decremento.Location = new Point(109, 21);
             btnBuscar_Nome_Decremento.Name = "btnBuscar_Nome_Decremento";
             btnBuscar_Nome_Decremento.Size = new Size(75, 23);
-            btnBuscar_Nome_Decremento.TabIndex = 22;
+            btnBuscar_Nome_Decremento.TabIndex = 13;
             btnBuscar_Nome_Decremento.Text = "Buscar";
             btnBuscar_Nome_Decremento.UseVisualStyleBackColor = true;
             btnBuscar_Nome_Decremento.Click += btnBuscar_Nome_Decremento_Click;
