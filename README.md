@@ -86,6 +86,4 @@ TrabalhoPOO
 │
 └─ Program.cs
 ```
-⌨️ com gratidão feito por Ana
- 😊
  
